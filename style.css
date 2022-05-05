@@ -1,0 +1,31 @@
+* {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgb(172, 213, 252);
+}
+
+h1 {
+    color: rgba(252, 195, 40, 0.61);
+    font-size: 100px;
+}
+
+a:link, a:visited {
+    background-color: rgba(252, 195, 40, 0.61);
+    color: rgb(14, 39, 78);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(115, 199, 238);
+  }
+
+  

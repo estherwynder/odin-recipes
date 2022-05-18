@@ -1,31 +1,39 @@
-* {
-    text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 body {
-    background-color: rgb(172, 213, 252);
+    background-color: rgb(255, 238, 238);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(21, 29, 59);
 }
 
 h1 {
-    color: rgba(252, 195, 40, 0.61);
     font-size: 100px;
+    
 }
 
-a:link, a:visited {
-    background-color: rgba(252, 195, 40, 0.61);
-    color: rgb(14, 39, 78);
-    padding: 15px 25px;
-    text-align: center;
+a {
     text-decoration: none;
-    display: inline-block;
-    border-radius: 8px;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 600;
-  }
-  
-  a:hover, a:active {
-    background-color: rgb(115, 199, 238);
-  }
+    color: rgb(87, 10, 87);
+}
 
+a:hover {
+    text-decoration: none;
+    color: rgb(46, 2, 73);
+}
   
+#banner {
+    background-image: url("https://picsum.photos/1000/600");
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+}
+
+#banner p {
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.card{
+    padding: 50px;
+    text-align: center;
+}

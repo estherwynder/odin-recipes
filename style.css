@@ -1,7 +1,8 @@
 body {
-    background-color: rgb(255, 238, 238);
+    background-color: rgb(153, 196, 200);
     font-family: 'Poppins', sans-serif;
     color: rgb(21, 29, 59);
+    margin: 0;
 }
 
 h1 {
@@ -20,8 +21,8 @@ a:hover {
 }
   
 #banner {
-    background-image: url("https://picsum.photos/1000/600");
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../odin-recipes/img/kbbq.JPG);
+    background-size:cover;
     padding: 150px 0;
     text-align: center;
     color: white;
@@ -33,7 +34,38 @@ a:hover {
     opacity: 0.7;
 }
 
-.card{
-    padding: 50px;
+.card {
+    background: rgb(239, 255, 253);
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px;
+    width: 200px;
     text-align: center;
+    padding: 24px;
+    margin: 8px;
+}
+
+.card img {
+    border-radius: 4px;
+    object-fit: cover;
+    width: 150px;
+    height: 211px;
+}
+
+.card h3 {
+    color: rgb(22, 0, 59);
+}
+
+.card a {
+    -webkit-filter: brightness(100%);
+}
+
+.card a:hover {
+    -webkit-filter: brightness(70%);
+    transition: 0.3s;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    width: 800px;
 }
